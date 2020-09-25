@@ -11,7 +11,7 @@ pointsToLabel <- c("Russia", "Venezuela", "Iraq", "Myanmar", "Sudan",
                    "United States", "Germany", "Britain", "Barbados", "Norway", "Japan",
                    "New Zealand", "Singapore")
 
-df <- read.csv("C:\\Users\\emman\\OneDrive\\Documents\\R\\R-Course-HTML-Notes\\R-for-Data-Science-and-Machine-Learning\\Training Exercises\\Capstone and Data Viz Projects\\Data Visualization Project\\Economist_Assignment_Data.csv", header = TRUE)
+df <- read.csv("Economist_Assignment_Data.csv" stringsAsFactors = FALSE)
 df
 head(df)
 str(df)
